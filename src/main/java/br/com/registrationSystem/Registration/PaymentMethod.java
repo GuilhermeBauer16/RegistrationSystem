@@ -1,10 +1,12 @@
-package br.com.reservationSystem.DAO;
+package br.com.registrationSystem.Registration;
 
-import javax.persistence.Entity;
+import javax.persistence.Entity; 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+
 
 @Entity
 @Table(name="payment_methods")
@@ -27,4 +29,7 @@ public class PaymentMethod {
 	public void setMethodPayment(String methodPayment) {
 		this.methodPayment = methodPayment;
 	}
+	
+
 }
+

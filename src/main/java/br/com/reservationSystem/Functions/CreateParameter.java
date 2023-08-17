@@ -15,7 +15,7 @@ public class CreateParameter {
 		Scanner scanner = new Scanner(System.in);
 		int number = 0;
 		while (true) {
-			System.out.println(mesage);
+			System.out.print(mesage);
 			if (scanner.hasNextInt()) {
 				number = scanner.nextInt();
 				break;
@@ -31,7 +31,7 @@ public class CreateParameter {
 		Scanner scanner = new Scanner(System.in);
 		double number = 0.0;
 		while (true) {
-			System.out.println(mesage);
+			System.out.print(mesage);
 			if (scanner.hasNextInt()) {
 				number = scanner.nextInt();
 				break;
