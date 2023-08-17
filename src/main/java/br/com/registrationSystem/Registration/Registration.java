@@ -4,38 +4,36 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import br.com.reservationSystem.Functions.CreateParameter;
+import br.com.registrationSystem.Functions.CreateParameter;
 
 @Entity
 @Table(name="registration")
 public class Registration {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id_registration;
-	@ManyToOne
-	@JoinColumn(name="id_item")
-	private Item item;
-	@ManyToOne
-	@JoinColumn(name="id_method")
-	private PaymentMethod paymentMethod;
+	private long id;
+
 	private String customerName;
-	
-	public  Registration() {
+	private int age;
+	private String phone;
+	private String email;
+	private String address;
+
+	public Registration  registration() {
 		CreateParameter createParameter = new CreateParameter();
-		this.id_registration = getId_registration();
+
 		this.customerName = createParameter.createString("Nome: ");
+		this.setAge(createParameter.createInt("Sua idade: "));
 		this.phone = createParameter.createString("telefone (XX) XX-XXXXX-XXXX: ");
 		this.email = createParameter.createString("email: ");
 		this.address = createParameter.createString("Endereço: ");
-		this.payment = createParameter.createDouble("valorR$: ");
-		
-		
+		return this;
+
 	}
 	
+
 	public String getCustomerName() {
 		return customerName;
 	}
@@ -76,32 +74,24 @@ public class Registration {
 	}
 
 
-	public double getPayment() {
-		return payment;
-	}
-
-
-	public void setPayment(double payment) {
-		this.payment = payment;
-	}
-
-
 	public void setId_registration(long id_registration) {
-		this.id_registration = id_registration;
+		this.id = id_registration;
 	}
-
-
-	private String phone;
-	private String email;
-	private String address;
-	private double payment;
-	
-	
 
 
 
 	public long getId_registration() {
-		return id_registration;
+		return id;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 

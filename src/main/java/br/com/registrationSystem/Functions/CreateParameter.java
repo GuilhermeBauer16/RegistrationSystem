@@ -1,4 +1,4 @@
-package br.com.reservationSystem.Functions;
+package br.com.registrationSystem.Functions;
 
 import java.util.Scanner;
 
@@ -42,4 +42,13 @@ public class CreateParameter {
 		}
 		return number;
 	}
+	
+	public String title(String mesage, int number) {
+        String linha = "==".repeat(number);
+        return linha + "\n" + mesage + "\n" + linha;
+    }
+
+    public String line(int number) {
+        return "==".repeat(number);
+    }
 }

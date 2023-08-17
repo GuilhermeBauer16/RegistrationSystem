@@ -11,4 +11,6 @@ public class JPAUtil {
 	public static EntityManager getEntityManager() {
 		return ENTITY_MANAGER_FACTORY.createEntityManager();
 	}
+	
+	
 }
