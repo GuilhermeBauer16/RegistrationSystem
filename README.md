@@ -9,8 +9,10 @@
 ![image](https://github.com/GuilhermeBauer16/RegistrationSystem/assets/123701893/20a75175-286b-45c0-aa9a-c10aba27687d)
 
 ## Learnings
-In this project I learn many thing related to Java and Database.Learn how to crateted
-a maven project ,setting up the archive pom.xml and understand concepts fundamental 
-related to JPA (Java Persistence API) and Hibernate, in which simplify considerably
-when compared to JDBC (Java Database Connectivity).I also achive the knowledge
-of how to setting up the archive persistence.xml related to database
+
+In this project, I learned new things related to Java and databases. 
+I learned how to create a Maven project, set up the archive pom.xml, 
+and understand fundamental concepts related to JPA (Java Persistence API)
+and Hibernate. These concepts were considerably simpler compared to JDBC 
+(Java Database Connectivity). I also achieved the knowledge of how to set up 
+the persistence.xml file related to the database.
