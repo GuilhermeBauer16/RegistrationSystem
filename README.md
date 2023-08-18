@@ -16,3 +16,18 @@ I learned how to create a Maven project, set up the archive pom.xml, and underst
 concepts related to JPA (Java Persistence API) and Hibernate. These concepts were considerably simpler 
 compared to JDBC (Java Database Connectivity). I also achieved the knowledge of how to set up the persistence.xml
 file related to the database.
+
+## Functions
+
+* Addition of customers divided between:
+  * Customer name.
+  * Age.
+  * Phone.
+  * E-mail.
+  * Address.
+   
+* Registrated customers edition.
+  
+* Deletion of registrated customers.
+  
+* Viewing registrated customers.
