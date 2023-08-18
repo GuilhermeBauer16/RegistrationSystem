@@ -10,9 +10,9 @@
 
 ## Learnings
 
-In this project, I learned new things related to Java and databases. 
-I learned how to create a Maven project, set up the archive pom.xml, 
-and understand fundamental concepts related to JPA (Java Persistence API)
-and Hibernate. These concepts were considerably simpler compared to JDBC 
-(Java Database Connectivity). I also achieved the knowledge of how to set up 
-the persistence.xml file related to the database.
+
+In this project, I learned new things related to Java and databases.
+I learned how to create a Maven project, set up the archive pom.xml, and understand fundamental 
+concepts related to JPA (Java Persistence API) and Hibernate. These concepts were considerably simpler 
+compared to JDBC (Java Database Connectivity). I also achieved the knowledge of how to set up the persistence.xml
+file related to the database.
