@@ -17,7 +17,7 @@ concepts related to JPA (Java Persistence API) and Hibernate. These concepts wer
 compared to JDBC (Java Database Connectivity). I also achieved the knowledge of how to set up the persistence.xml
 file related to the database.
 
-## Functions
+## Funcionalities
 
 * Addition of customers divided between:
   * Customer name.
@@ -31,3 +31,6 @@ file related to the database.
 * Deletion of registrated customers.
   
 * Viewing registrated customers.
+  
+## Author
+ www.linkedin.com/in/guilherme-bauer-desenvolvedor
