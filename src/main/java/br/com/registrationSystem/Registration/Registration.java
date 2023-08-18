@@ -1,5 +1,5 @@
 package br.com.registrationSystem.Registration;
-
+import javax.persistence.EntityManager;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

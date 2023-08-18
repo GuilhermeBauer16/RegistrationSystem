@@ -48,6 +48,8 @@ public class Main {
 				System.out.println("Saindo...");
 				entityManager.close();
 				break;
+			}else {
+				System.out.println("Opção invalida!");
 			}
 
 		}

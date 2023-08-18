@@ -1,6 +1,6 @@
 package br.com.registrationSystem.DAO;
 
-import java.util.List;
+import java.util.List;  
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
