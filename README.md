@@ -11,7 +11,7 @@
 https://github.com/GuilhermeBauer16/RegistrationSystem/assets/123701893/3c16b517-a59d-4121-a0b6-e61d93726c47
 
 
-## Learnings
+## Learnings.   
 
 
 In this project, I learned new things related to Java and databases.
