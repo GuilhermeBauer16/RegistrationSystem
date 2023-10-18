@@ -3,7 +3,7 @@
 ## Objective  
 
  A registration system when the user can insert their customers with the attributes: customer name , age , phone , e-mail ,and address.    
- The user also can edit , visualize and delete their customers.    
+ The user also can edit , visualize and delete their customers.       
 
 ## Working example
 ![image](https://github.com/GuilhermeBauer16/RegistrationSystem/assets/123701893/20a75175-286b-45c0-aa9a-c10aba27687d)
