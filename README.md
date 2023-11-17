@@ -20,7 +20,7 @@ concepts related to JPA (Java Persistence API) and Hibernate. These concepts wer
 compared to JDBC (Java Database Connectivity). I also achieved the knowledge of how to set up the persistence.xml
 file related to the database.
 
-## Funcionalities
+## Funcionalities.     
 
 * Addition of customers divided between:
   * Customer name.
